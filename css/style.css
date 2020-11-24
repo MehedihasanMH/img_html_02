@@ -235,6 +235,7 @@ header{}
 }
 .first{
 	margin: 0 auto;
+	padding: 35px 0;
 	width: 50%;
 	/*border: 1px solid red;*/
 	text-align: center;
@@ -275,7 +276,13 @@ header{}
 	padding: 2px;
 }
 .middle1 img{}
+.middle1 h3{
+	margin: 10px 0;
+}
 .middle1 p{
+}
+.middle1:nth-child (3){
+	background-color: red;
 }
 .last{
 	width: 13%;
@@ -287,7 +294,7 @@ header{}
 	text-transform: uppercase;
 	color: #BC203D;
 	background-color:white;
-	border: none;
+	padding: 10px;
 }
 .last button:hover{
 	color:white;
@@ -295,3 +302,85 @@ header{}
 	transition: .3s;
 }
 /*features End*/
+/*footer End*/
+.f_topbar{
+	background-color:black;
+
+}
+.f_topbar_wraper{
+	overflow: hidden;
+}
+.contact{
+	width: 33%;
+	float: left;
+}
+.contact h2{
+	text-transform: uppercase;
+	color: #BC203D;
+	padding-left: 40px;
+}
+.contact_add ul{
+	list-style: none;
+	display: inline-block;
+}
+.contact_add ul li{
+	color: #535D69;
+	display: inline-block;
+	padding-right: 7px;
+}
+.contact_add ul li span{
+	padding-left: 15px;
+}
+.useful{
+	width: 33%;
+	float: left;
+}
+.useful h2{
+	text-transform: uppercase;
+	color: #BC203D;
+	padding-left: 40px;
+}
+.useful ul{
+	list-style: none;
+}
+.useful ul li{
+	color: #535D69;
+	padding-right: 7px;
+}
+.useful ul li span{
+	padding-left: 15px;
+}
+.newstetter{
+	width: 33%;
+	float: left;
+}
+.newstetter h2{
+	text-transform: uppercase;
+	color: #BC203D;
+	padding-left: 40px;
+}
+.newstetter p{
+	color: #535D69;
+}
+.newstetter input{
+	width: 110px;
+	background-color: transparent;
+	border:1px solid #535D69;
+	padding: 8px;
+}
+.newstetter input[type="button"]{
+	background-color: #BC203D;
+	border: 1px solid transparent;
+	color: #fff;
+	cursor: pointer;
+}
+.f_bottombar{
+	color: white;
+	background-color:#535D69 ;
+	text-align: center; 
+}
+.f_bottombar p{
+	margin: 0;
+	padding: 10px;
+}
+/*footer End*/
